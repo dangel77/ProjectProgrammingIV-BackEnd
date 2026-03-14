@@ -107,9 +107,9 @@ export class SubmitAdmissionDto {
 
   @ApiPropertyOptional({
     example:
-      "Era m�dico en el hospital central antes del colapso. Perdi� a su familia en el primer mes.",
+      "Era medico en el hospital central antes del colapso. Perdio a su familia en el primer mes.",
     description:
-      "Historia personal del candidato para an�lisis NLP (Caja de Cristal)",
+      "Historia personal del candidato para analisis NLP (Caja de Cristal)",
   })
   @IsOptional()
   @IsString()
